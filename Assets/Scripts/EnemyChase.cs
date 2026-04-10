@@ -17,7 +17,7 @@ public class EnemyChase : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating(nameof(UpdatePath), 0f, updateRate); 
+        InvokeRepeating(nameof(UpdatePath), 0f, updateRate);
     }
 
     // Update is called once per frame
